@@ -1,4 +1,4 @@
-/*Which films every category has*/
+/*What films are in each category*/
 
 SELECT category.name AS film_category, STRING_AGG(film.title, ', ') AS films
 FROM category
