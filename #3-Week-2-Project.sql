@@ -1,4 +1,4 @@
-/*Find all customers from Texas*/
+/*All customers from Texas*/
 
 SELECT customer.first_name, customer.last_name, address.district 
 FROM customer

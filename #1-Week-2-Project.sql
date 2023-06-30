@@ -1,4 +1,4 @@
-/*Show the list of all films by the actor Penelope Guiness*/
+/*The list of all films by the actor Penelope Guiness (Request from the customer)*/
 
 SELECT actor.first_name, actor.last_name, film.title
 FROM actor
