@@ -1,4 +1,4 @@
-/*Sorting by month from most profitable to least*/
+/*Month list from most profitable to least by payments*/
 
 SELECT 
 CASE WHEN EXTRACT(MONTH FROM payment_date) = '2' THEN 'February'
